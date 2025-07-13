@@ -10,10 +10,17 @@ Dataset link (kaggle) - https://www.kaggle.com/datasets/sabuktagin/dataset-for-c
 
 ## Tools Used
 Python – Core programming language used for data processing and modeling
+
 PyTorch – Deep learning framework used for building and training the CNN
+
 Torchvision – For importing and modifying pretrained ResNet-50
+
 Pandas & NumPy – Data manipulation and preprocessing
+
 Matplotlib & Seaborn – Data visualization and plotting
+
 Scikit-learn – Evaluation metrics and classification reports
+
 Jupyter Notebook – Interactive environment to write and test the code
+
 Kaggle GPU Kernel – For training on GPU-accelerated hardware

@@ -1,5 +1,6 @@
 #  Cotton Leaf Disease Detection
 This project aims to automate the identification of various cotton leaf diseases using deep learning. By leveraging a pre-trained convolutional neural network (ResNet-50), the model classifies images of cotton leaves into one of seven disease categories. This type of classification is vital for timely and accurate disease diagnosis, which can significantly reduce crop losses in agriculture. The model is fine-tuned to adapt to cotton-specific disease features, improving its accuracy on real-world agricultural data.
+
 Kaggle link - https://www.kaggle.com/code/nabi1subhan/pre-trained-cnn
 
 ## About Dataset

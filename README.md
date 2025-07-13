@@ -9,18 +9,18 @@ The dataset used in this project is the SAR-CLD-2024: A Comprehensive Dataset fo
 Dataset link (kaggle) - https://www.kaggle.com/datasets/sabuktagin/dataset-for-cotton-leaf-disease-detection
 
 ## Tools Used
-Python – Core programming language used for data processing and modeling
+- Python
 
-PyTorch – Deep learning framework used for building and training the CNN
+- PyTorch
 
-Torchvision – For importing and modifying pretrained ResNet-50
+- Torchvision
 
-Pandas & NumPy – Data manipulation and preprocessing
+- Pandas & NumPy
 
-Matplotlib & Seaborn – Data visualization and plotting
+- Matplotlib & Seaborn
 
-Scikit-learn – Evaluation metrics and classification reports
+- Scikit-learn
 
-Jupyter Notebook – Interactive environment to write and test the code
+- Jupyter Notebook
 
-Kaggle GPU Kernel – For training on GPU-accelerated hardware
+- Kaggle GPU Kernel

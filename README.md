@@ -4,8 +4,9 @@ This project aims to automate the identification of various cotton leaf diseases
 Kaggle link - https://www.kaggle.com/code/nabi1subhan/pre-trained-cnn
 
 ## About Dataset
-The dataset used in this project is the SAR-CLD-2024: A Comprehensive Dataset for Cotton Leaf Disease Detection, which includes thousands of high-quality, augmented images of diseased cotton leaves. The dataset is organized into seven distinct classes, each representing a different type of leaf disease. The data is split into training, validation, and test sets using stratified sampling to ensure all classes are evenly distributed. All images were resized and normalized to fit the ResNet-50 architecture's input requirements.
+The dataset utilized in this project is SAR-CLD-2024: A Comprehensive Dataset for Cotton Leaf Disease Detection, which comprises a large collection of high-quality, augmented images of cotton leaves affected by various diseases. The dataset is systematically organized into seven distinct classes, with each class representing a specific type of leaf disease.
 
+To ensure balanced representation, the data has been divided into training, validation, and test sets using stratified sampling, maintaining an even distribution across all classes. Furthermore, all images have been resized and normalized to meet the input specifications of the ResNet-50 architecture, ensuring optimal compatibility and performance during model training and evaluation.
 Dataset link (kaggle) - https://www.kaggle.com/datasets/sabuktagin/dataset-for-cotton-leaf-disease-detection
 
 ## Tools Used

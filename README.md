@@ -1,12 +1,24 @@
 #  Cotton Leaf Disease Detection
-This project aims to automate the identification of various cotton leaf diseases using deep learning. By leveraging a pre-trained convolutional neural network (ResNet-50), the model classifies images of cotton leaves into one of seven disease categories. This type of classification is vital for timely and accurate disease diagnosis, which can significantly reduce crop losses in agriculture. The model is fine-tuned to adapt to cotton-specific disease features, improving its accuracy on real-world agricultural data.
+A deep learning–based project for cotton leaf disease classification using Custom CNN, Hybrid CNN + ML Classifiers, and Pretrained CNN models (ResNet, MobileNetV2).
+This project also includes Grad-CAM visualization and Generalizability Testing to evaluate robustness on a second dataset.
 
 Kaggle link - https://www.kaggle.com/code/nabi1subhan/pre-trained-cnn
 
-## About Dataset
-The dataset utilized in this project is SAR-CLD-2024: A Comprehensive Dataset for Cotton Leaf Disease Detection, which comprises a large collection of high-quality, augmented images of cotton leaves affected by various diseases. The dataset is systematically organized into seven distinct classes, with each class representing a specific type of leaf disease.
+## Features
+Custom CNN model designed from scratch
 
-To ensure balanced representation, the data has been divided into training, validation, and test sets using stratified sampling, maintaining an even distribution across all classes. Furthermore, all images have been resized and normalized to meet the input specifications of the ResNet-50 architecture, ensuring optimal compatibility and performance during model training and evaluation.
+Hybrid model (CNN feature extractor + ML classifiers)
+
+Pretrained models (ResNet, MobileNetV2) with transfer learning
+
+Grad-CAM visualization for explainability
+
+Generalizability testing on a second dataset
+
+Performance evaluation with Accuracy, Class Accuracy, Precision, Recall, F1-score
+
+To ensure balanced representation, the dataset was divided into training, validation, and test sets using stratified sampling, preserving an even distribution across all classes. All images were resized and normalized according to the input requirements of the selected model architectures (Custom CNN, Hybrid CNN+ML classifiers, ResNet50, and VGG16), ensuring consistency and optimal performance during training and evaluation.
+
 Dataset link (kaggle) - https://www.kaggle.com/datasets/sabuktagin/dataset-for-cotton-leaf-disease-detection
 
 ## Tools Used

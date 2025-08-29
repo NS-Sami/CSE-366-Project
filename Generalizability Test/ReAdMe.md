@@ -64,19 +64,7 @@ ________________________________________
 •	Helps understand why the model predicts a particular class
 •	Enhances transparency and explainability of deep learning models
 ________________________________________
-## 🚀 How to Run
-1.	Clone this repository
-2.	git clone https://github.com/your-username/Custom-CNN-Generalizability.git
-3.	cd Custom-CNN-Generalizability
-4.	Install dependencies
-5.	pip install -r requirements.txt
-6.	Train the model
-7.	python train.py
-8.	Evaluate the model
-9.	python evaluate.py
-10.	Visualize Grad-CAM results
-11.	python gradcam.py
-________________________________________
+
 ## 🔮 Future Enhancements
 •	Compare performance with ResNet50, MobileNetV2, and VGG16
 •	Deploy the model as a Flask / FastAPI web app

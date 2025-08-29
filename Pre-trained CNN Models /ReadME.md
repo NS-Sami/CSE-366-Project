@@ -1,154 +1,150 @@
-🌿 Cotton Leaf Disease Detection (ResNet50)
-📌 Overview
+## 🌿 Cotton Leaf Disease Detection
+This repository contains two deep learning–based models — ResNet50 and VGG16 — for detecting 7 types of cotton leaf diseases using the SAR-CLD-2024 dataset.
 
-A Deep Learning-based Image Classification project that uses a Pre-trained ResNet50 CNN to detect 7 types of cotton leaf diseases. The model is fine-tuned using the SAR-CLD-2024 dataset and achieves high accuracy.
+The models are trained, fine-tuned, and evaluated to achieve high accuracy for practical agricultural applications.
+________________________________________
+## 📌 Project Overview
 
-📂 Dataset
+•	Develops AI-powered disease detection for cotton leaves using deep learning.
 
-Dataset: SAR-CLD-2024
-Total Images: 7000
-Classes (7): Healthy, Leaf Hopper Jassids, Leaf Redding, Curl Virus, Herbicide Damage, Bacterial Blight, Leaf Variegation
-Split: Train 70% • Val 15% • Test 15%
+•	Implements two approaches:
 
-🧠 Model Details
+o	ResNet50 – Transfer learning with a pre-trained CNN
 
-Architecture: ResNet50 (Pre-trained on ImageNet)
+o	VGG16 – Custom CNN fine-tuned for cotton leaf classification
 
-Input Size: 224×224
+•	Automates early detection to support farmers and improve crop yield.
+________________________________________
+## 📂 Dataset Details
 
-Optimizer: Adam
+•	Dataset Name: SAR-CLD-2024
 
-Loss: CrossEntropy
+•	Total Images: 7,000
 
-Batch Size: 32
+•	Number of Classes: 7
 
-Epochs: 10
+o	Healthy Leaf
 
-⚙️ Installation
-git clone https://github.com/your-username/Cotton-Leaf-Disease-Detection.git
-cd Cotton-Leaf-Disease-Detection
-pip install -r requirements.txt
+o	Leaf Hopper Jassids
 
-🚀 Usage
+o	Leaf Redding
 
-Train the model:
+o	Curl Virus
 
-python train.py
+o	Herbicide Growth Damage
 
+o	Bacterial Blight
 
-Test the model:
+o	Leaf Variegation
 
-python test.py
+## •	Data Split:
 
+o	Training → 70%
 
-Predict single image:
+o	Validation → 15%
 
-python predict.py --image path_to_image.jpg
-📊 Results
-Dataset	Accuracy
-Training	~99%
-Validation	~96%
-Testing	~95%
+o	Testing → 15%
 
-Project Structure
-Cotton-Leaf-Disease-Detection/
-│── data/           # Dataset
-│── checkpoints/    # Saved models
-│── train.py        # Training script
-│── test.py         # Testing script
-│── predict.py      # Prediction script
-│── requirements.txt
-│── README.md
+## •	Source: Kaggle – SAR-CLD-2024 Dataset
+________________________________________
+## 🧠 Model Details
+## 🔹 Model 1: ResNet50 (Transfer Learning)
 
+•Architecture: Pre-trained ResNet50
 
+•	Input Size: 224 × 224
 
-🌿 Cotton Leaf Disease Detection using VGG16
-📌 Overview
+•	Optimizer: Adam
 
-This project implements a Deep Learning-based image classification system for detecting 7 cotton leaf conditions using a VGG16-based CNN model.
-The model is trained on the SAR-CLD-2024 dataset and achieves 76% test accuracy.
+•	Loss Function: CrossEntropy
 
-📂 Dataset
+•	Batch Size: 32
 
-Dataset: SAR-CLD-2024
-Total Images: 7000
-Classes (7):
+•	Epochs: 10
 
-Healthy Leaf
+•	Accuracy:
 
-Leaf Hopper Jassids
+o	Training → ~99%
 
-Leaf Redding
+o	Validation → ~96%
 
-Curl Virus
+o	Testing → ~95%
+________________________________________
+## 🔹 Model 2: VGG16 (Custom CNN)
 
-Herbicide Growth Damage
+•	Architecture: Modified VGG16-based CNN
 
-Bacterial Blight
+•	Input Size: 128 × 128
 
-Leaf Variegation
+•	Optimizer: Adam (learning rate = 0.0001)
 
-Split: Train 70% | Validation 15% | Test 15%
+•	Loss Function: CrossEntropy
 
-🧠 Model Details
+•	Batch Size: 32 (train), 8 (val/test)
 
-Architecture: VGG16-based Custom CNN
+•	Epochs: 20
 
-Input Size: 128×128
+•	Device Used: Tesla P100 GPU
 
-Optimizer: Adam (lr=0.0001)
+•	Accuracy:
 
-Loss: CrossEntropy
+o	Training → ~77.3%
 
-Batch Size: 32 (train), 8 (val/test)
+o	Validation → ~74.0%
 
-Epochs: 20
+o	Testing → ~76.0%
 
-Device Used: Tesla P100 GPU
+•	Per-Class Accuracy Highlights:
 
-⚙️ Installation
-git clone https://github.com/your-username/Cotton-Leaf-Disease-Detection-VGG16.git
-cd Cotton-Leaf-Disease-Detection-VGG16
-pip install -r requirements.txt
+o	Curl Virus → 91.3%
 
-🚀 Usage
+o	Leaf Variegation → 82.7%
 
-Train the model:
+o	Herbicide Damage → 77.3%
 
-python train.py
+o	Healthy Leaf → 74.7%
 
+o	Leaf Redding → 71.3%
 
-Evaluate on test set:
+o	Bacterial Blight → 73.3%
 
-python test.py
+o	Leaf Hopper Jassids → 61.3%
+________________________________________
+## 🚀 Usage
+## ResNet50 Model
 
+•	Train the model: python train.py
 
-Predict single image:
+•	Test the model: python test.py
 
-python predict.py --image path_to_image.jpg
+•	Predict single image: python predict.py --image path_to_image.jpg
 
-📊 Results
-Metric	Training	Validation	Testing
-Accuracy	77.3%	74.0%	76.0%
-Loss	0.59	0.70	0.71
+## VGG16 Model
 
-Per-Class Accuracy:
+•	Train the model: python train.py
 
-Class	Accuracy
-Healthy Leaf	74.7%
-Leaf Hopper Jassids	61.3%
-Leaf Redding	71.3%
-Curl Virus	91.3%
-Herbicide Damage	77.3%
-Bacterial Blight	73.3%
-Leaf Variegation	82.7%
-📁 Project Structure
-Cotton-Leaf-Disease-Detection-VGG16/
-│── data/             # Dataset
-│── checkpoints/      # Trained model weights
-│── train.py          # Training script
-│── test.py           # Testing script
-│── predict.py        # Single image prediction
-│── utils.py          # Helper functions
-│── requirements.txt  # Dependencies
-│── README.md         # Documentation
+•	Evaluate on test set: python test.py
+
+•	Predict single image: python predict.py --image path_to_image.jpg
+________________________________________
+
+## 📊 Results Summary
+
+•	## ResNet50 Model:
+
+o	High overall accuracy (~95%)
+
+o	Better generalization due to transfer learning
+
+## •	 VGG16 Model:
+
+o	Achieved ~76% test accuracy
+
+o	Strong performance on Curl Virus and Leaf Variegation classes
+
+## •	 Comparison Insight:
+
+o	ResNet50 performs better overall
+
+o	VGG16 still provides competitive results for smaller input sizes
+

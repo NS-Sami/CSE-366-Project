@@ -1,11 +1,11 @@
-##Custom CNN – Cotton Leaf Disease Detection
+## Custom CNN – Cotton Leaf Disease Detection
 
 A deep learning–based project for cotton leaf disease classification using a Custom Convolutional Neural Network (CNN).
 This project focuses on building a CNN model from scratch, evaluating its performance, visualizing results, and analyzing key performance metrics such as accuracy, precision, recall, and F1-score.
 
 Kaggle Notebook Link: Click Here
 
-##📌 Features
+## 📌 Features
 
 Custom CNN model designed and implemented from scratch using PyTorch
 
@@ -21,7 +21,7 @@ Comprehensive performance evaluation using accuracy, precision, recall, and F1-s
 
 Training and validation loss & accuracy curves for better insights
 
-##📂 Dataset
+## 📂 Dataset
 
 The dataset contains 7 classes of cotton leaves:
 
@@ -41,7 +41,7 @@ Herbicide Growth Damage
 
 Dataset Link: Click Here
 
-##🛠️ Tools & Libraries Used
+## 🛠️ Tools & Libraries Used
 
 Programming Language: Python
 
@@ -55,7 +55,7 @@ Evaluation Metrics: Scikit-learn
 
 Others: Torchinfo, Pillow, Jupyter Notebook, Kaggle GPU Kernel
 
-##🧠 Model Architecture Overview
+## 🧠 Model Architecture Overview
 
 3 Convolutional Layers with Batch Normalization & ReLU Activation
 
@@ -65,7 +65,7 @@ Fully Connected Layers with Dropout for regularization
 
 Softmax activation for 7-class classification
 
-##⚙️ Training Configuration
+## ⚙️ Training Configuration
 
 Batch Size: 64
 
@@ -83,7 +83,7 @@ Early Stopping: Patience = 200
 
 Hardware Used: Kaggle Tesla P100 GPU
 
-##📊 Training Results
+## 📊 Training Results
 
 Best Epoch: 495
 
@@ -95,7 +95,7 @@ Training Loss: 0.6459
 
 Validation Loss: 0.533
 
-##✅ Evaluation on Test Set
+## ✅ Evaluation on Test Set
 
 Final Test Accuracy: 97.8%
 
@@ -103,7 +103,7 @@ High precision, recall, and F1-score across all 7 classes
 
 Balanced performance verified using confusion matrix
 
-##🚀 How to Run
+## 🚀 How to Run
 
 Clone the repository
 
@@ -113,7 +113,7 @@ Train the model using the provided dataset
 
 Evaluate the model on the test set
 
-##🔮 Future Enhancements
+## 🔮 Future Enhancements
 
 Integrate Grad-CAM visualization for explainable AI
 
@@ -123,7 +123,8 @@ Deploy the model as a Flask / FastAPI web application
 
 Extend dataset and test on real-world field images
 
-##📌 Project Workflow Diagram
+## 📌 Project Workflow Diagram
 
 I’ll create a professional pipeline diagram showing:
 Dataset → Preprocessing → Custom CNN → Training → Evaluation → Results
+

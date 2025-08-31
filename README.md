@@ -3,14 +3,22 @@ A deep learning–based project for cotton leaf disease classification using Cus
 This project also includes Grad-CAM visualization and Generalizability Testing to evaluate robustness on a second dataset.
 
 Kaggle links -
+
   CustmCNN - https://www.kaggle.com/code/sheikhrafi/customtest
+  
   Generalizability Test - https://www.kaggle.com/code/nabi1subhan/generalizability-test
+  
   Hybrid Models -
-    SVM - https://www.kaggle.com/code/nabi1subhan/test-2-0-hybrid-svm
-    KNN - https://www.kaggle.com/code/sam1gaming/test-2-0-hybrid-knn
+  
+  SVM - https://www.kaggle.com/code/nabi1subhan/test-2-0-hybrid-svm
+    
+  KNN - https://www.kaggle.com/code/sam1gaming/test-2-0-hybrid-knn
+    
   Pre-train CNN Models -
-    Resnet50 - https://www.kaggle.com/code/nabi1subhan/pre-trained-cnn-resnet
-    VGG16 - 
+  
+  Resnet50 - https://www.kaggle.com/code/nabi1subhan/pre-trained-cnn-resnet
+    
+  VGG16 - 
 
 ## Features
 Custom CNN model designed from scratch

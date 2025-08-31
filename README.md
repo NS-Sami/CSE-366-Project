@@ -18,7 +18,7 @@ Kaggle links -
   
   Resnet50 - https://www.kaggle.com/code/nabi1subhan/pre-trained-cnn-resnet
     
-  VGG16 - 
+  VGG16 - https://www.kaggle.com/code/nabi1subhan/vgg16-cnn
 
 ## Features
 Custom CNN model designed from scratch
@@ -35,7 +35,9 @@ Performance evaluation with Accuracy, Class Accuracy, Precision, Recall, F1-scor
 
 To ensure balanced representation, the dataset was divided into training, validation, and test sets using stratified sampling, preserving an even distribution across all classes. All images were resized and normalized according to the input requirements of the selected model architectures (Custom CNN, Hybrid CNN+ML classifiers, ResNet50, and VGG16), ensuring consistency and optimal performance during training and evaluation.
 
-Dataset link (kaggle) - https://www.kaggle.com/datasets/sabuktagin/dataset-for-cotton-leaf-disease-detection
+Dataset link (Main) - https://www.kaggle.com/datasets/sabuktagin/dataset-for-cotton-leaf-disease-detection
+
+Dataset link (Generalizability) - https://www.kaggle.com/datasets/seroshkarim/cotton-leaf-disease-dataset
 
 ## Tools Used
 - Python
